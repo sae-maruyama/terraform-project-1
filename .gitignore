@@ -6,7 +6,6 @@
 
 # Terraform設定ディレクトリ
 .terraform/
-.terraform.lock.hcl
 
 # キーペアファイル
 *.pem
