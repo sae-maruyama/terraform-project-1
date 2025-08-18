@@ -1,0 +1,30 @@
+# Terraform機密ファイル
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfvars
+
+# Terraform設定ディレクトリ
+.terraform/
+.terraform.lock.hcl
+
+# キーペアファイル
+*.pem
+*.key
+
+# ログファイル
+*.log
+
+# OS関連
+.DS_Store
+Thumbs.db
+
+# エディタ関連
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 一時ファイル
+*~
+*.tmp
