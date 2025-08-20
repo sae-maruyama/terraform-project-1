@@ -46,9 +46,9 @@ resource "aws_db_instance" "main" {
   deletion_protection        = false
 
   # ライフサイクル保護
-  lifecycle {
-    prevent_destroy = true # 誤削除防止
-  }
+  # lifecycle {
+  #   prevent_destroy = true # 誤削除防止
+  # }
 
   tags = {
     Name = "${var.name_prefix}-mysql-db"
